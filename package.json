@@ -1,0 +1,34 @@
+{
+  "name": "@goyalsamarth/reaction-time-microservice",
+  "version": "1.0.0",
+  "description": "Reaction Timer as a Microservice",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igoyalsamarth/reaction-timer-package.git"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Samarth",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.42",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup": "^4.7.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
