@@ -1,6 +1,6 @@
 {
   "name": "@goyalsamarth/reaction-time-microservice",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reaction Timer as a Microservice",
   "repository": {
     "type": "git",
