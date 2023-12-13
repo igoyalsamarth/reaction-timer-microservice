@@ -1,2 +1,2 @@
-import { ReactionTime } from "./ReactionTime";
-export { ReactionTime };
+import { ReactionTime, Analytics } from "./ReactionTime";
+export { ReactionTime, Analytics };
